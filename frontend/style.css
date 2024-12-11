@@ -1,181 +1,38 @@
-/* General Styles */
-* {
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-html, body {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-}
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
-  font-weight: 700;
-}
-p {
-  margin-bottom: 1rem;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-button {
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-button:hover {
-  opacity: 0.9;
-  transform: scale(1.02);
 }
 
-/* Header */
 header {
-  background-color: #fff;
-  padding: 20px 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-header .container {
+  background: #4caf50;
+  color: white;
+  padding: 10px 0;
   text-align: center;
 }
-header h1 {
-  font-size: 36px;
-  color: #4caf50;
-  margin-top: 10px;
-}
-header p {
-  font-size: 18px;
-  color: #777;
-}
 
-/* Input Section */
 .input_section {
-  margin: 30px auto;
   padding: 20px;
-  max-width: 800px;
-  background: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-.input_section .form-label {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #555;
-}
-.input_section input[type="url"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-}
-.input_section input[type="url"]:focus {
-  outline: none;
-  border-color: #4caf50;
-  box-shadow: 0px 0px 4px rgba(76, 175, 80, 0.5);
-}
-.input_section button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4caf50;
-  border: none;
-  color: #fff;
-  border-radius: 5px;
-}
-.input_section button:hover {
-  background-color: #388e3c;
-}
-
-/* Progress Section */
-#progress_section {
-  display: none;
   text-align: center;
-  margin: 30px auto;
-  padding: 20px;
-}
-#progress_section h2 {
-  font-size: 20px;
-  color: #777;
-  margin-bottom: 20px;
-}
-.progress {
-  width: 60%;
-  margin: 0 auto;
-  height: 20px;
-  border-radius: 10px;
-  background-color: #ddd;
-  overflow: hidden;
-}
-.progress-bar {
-  height: 100%;
-  background-color: #4caf50;
-  transition: width 0.5s ease;
 }
 
-/* Buttons Section */
+#progress_section {
+  margin: 20px auto;
+  text-align: center;
+}
+
 #buttons_section {
   display: none;
-  margin: 30px auto;
-  padding: 20px;
-  max-width: 800px;
-  background: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
   text-align: center;
-}
-#buttons_section h3 {
-  font-size: 24px;
-  color: #4caf50;
-  margin-bottom: 20px;
-}
-#buttons_section .btn {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-#buttons_section .btn:hover {
-  background-color: #388e3c;
-}
-
-/* Output Section */
-#output_section {
-  display: none;
-  margin: 30px auto;
-  padding: 20px;
-  max-width: 800px;
-  background: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-#output_section h3 {
-  font-size: 24px;
-  color: #4caf50;
-  margin-bottom: 20px;
-}
-#output_content {
-  background: #f5f5f5;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  color: #333;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background: #fff;
-  color: #777;
-  font-size: 14px;
   margin-top: 20px;
-  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.output {
+  display: none;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 20px auto;
 }
