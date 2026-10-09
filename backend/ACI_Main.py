@@ -1,10 +1,6 @@
 #change
 import ACI 
 import sys
-sys.path.append('/home/tko/himat/web-docs/keywordextraction/pylibs/lib64/python3.4/site-packages/')
-sys.path.append('/home/tko/himat/web-docs/keywordextraction/pylibs/lib/python3.4/site-packages/lib/python3.4/site-packages/')
-sys.path.append('/home/tko/himat/web-docs/titler/mt/lib/python3.4/site-packages/')
-sys.path.append('/home/tko/himat/packages/')
 from collections import defaultdict 
 import re 
 from nltk.corpus import stopwords
