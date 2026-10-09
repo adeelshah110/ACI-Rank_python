@@ -6,9 +6,6 @@ from nltk import word_tokenize
 from bs4 import BeautifulSoup
 import requests
 
-# Add necessary paths
-sys.path.append('/path/to/dependencies')
-
 # Regular Expressions for text cleaning
 SPECIAL_CHARS = re.compile(r'[^\w\s]')
 
